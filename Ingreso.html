@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="ingreso.css">
+</head>
+
+
+
+
+<body>
+    
+    <form id="loginform" action="#">
+        <h1>INICIO</h1>
+        <p><a href="astro.html"> www.astromanagement.com</a></p>
+
+        <div>
+        <img class="usericon" src="assets/usuario.png"UserIcon">
+    </div>
+      
+        
+        <div class="Rellenodeinfo">
+    
+            <input type="text" placeholder="Usuario">
+            
+            <!--Email de usuario-->
+            <input type="email" placeholder="E-mail" required autocomplete="off" validate>
+            <i class="TipeoDeinfo"></i>
+            
+            <!--Contraseña del usuario-->
+            <input type="password" placeholder="Contraseña">
+            
+            <!--el checkbox para que el browser recuerde el usuario, ''supuestamente''-->
+            <input type="checkbox">
+            <span class="recuerdame">Recuerdame</span>
+    
+        </div>
+    
+        <div class="BotonDeLogin"><!--boton de login azul-->
+            <button class="login" form="loginform">Ingresar</button>
+    
+            <a href="#">
+                <button class="signup" form="signupform">Registrate</button>
+            </a>
+        </div>
+            
+        <div class="social-media">
+            <button class="boton1">
+            <a href="#" > Ingrese con Facebook</a>
+            </button>
+    
+            <button class="boton2">
+            <a href="#" > Ingrese con Twitter</a>
+            </button>
+        </div>
+    
+        <p class="Siolvidastelacontra"> Si olvidaste tu contraseña <a href="#">Haz click aquí</a></p>
+    
+    </form>
+
+</body>
+</html>

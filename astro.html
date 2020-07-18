@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro</title>
+</head>
+
+
+<header>
+    <img class="imgdecabecera" src=https://i.imgur.com/W4bvyYu.png alt="logo">
+    <nav>
+    <ul class="menu">
+        <li><a href="menu1.html">Portafolio</a> </li> 
+        <li><a href="menu1.html">Contactanos</a> </li>  
+    </ul>
+    </nav>
+</header>
+
+<style>
+   
+.imgdecabecera{
+height: 260px;
+align-items: flex-end;
+ }
+
+
+.menu{
+color: darkgray;
+display: flex;
+justify-content: space-evenly;
+margin: 5px;
+}
+        
+li{
+   
+height: 80px;
+display: inline-block;
+list-style: none;
+font-size: 40px;
+font-family: sans-serif;
+
+
+}
+
+.titulo{
+    font-size: 65px;
+font-family: sans-serif;
+color:black;
+text-align: center;
+margin: 80px;
+}
+
+section{
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  
+        
+}
+
+.subtitulo{
+font-size: 20px;
+font-family: sans-serif;
+}
+body{
+    background-color: #727070;
+}
+
+.newsletter{
+    background-color: darkgrey;
+    width: 300px;
+}
+
+.imagen1{
+    height: 210px;   
+}
+
+.imagen2{
+    height: 215px;
+}
+
+.imagen3{
+height: 210px;
+}
+
+.newsletter{
+ margin: 150px;
+height: 150px;
+float: right;}
+
+.piedepagina{
+width: 150px;
+height: 150px;
+display: block;
+
+}
+
+footer {
+margin: 200px 0px 0px 50px;
+text-align: left;
+padding: 3px;
+color: white;
+height: 190px;
+}
+
+ </style>
+
+
+
+<body>
+
+<p class="titulo">Astro Managenment</p>
+
+<Section>
+<div>
+    <img class="imagen1" src="https://images.unsplash.com/photo-1579389082714-c16c57fa7de2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+    <p class="subtitulo">Mejores estrategias de Marketing</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda necessitatibus eveniet. 
+    t, est. Quibusdam, deserunt praesentium perferendis odio debitis, 
+    maxime veritatis qui voluptatum corrupti, sunt porro suscipit vero est.</p>
+</div>
+
+
+<div>
+    <img class="imagen2" src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
+    <p class="subtitulo">Publicidad en Redes Sociales</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda necessitatibus eveniet. 
+    t, est. Quibusdam, deserunt praesentium perferendis odio debitis, 
+    maxime veritatis qui voluptatum corrupti, sunt porro suscipit vero est.</p>
+</div>
+
+
+<div>
+    <img class="imagen3" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
+    <p class="subtitulo">Organiza tu espacio de trabajo</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio assumenda necessitatibus eveniet. 
+    t, est. Quibusdam, deserunt praesentium perferendis odio debitis, 
+    maxime veritatis qui voluptatum corrupti, sunt porro suscipit vero est.</p>
+    </div>
+
+ 
+
+</Section>
+
+<form class="newsletter">
+<p>Subscribete a nuestro Newsletter</p>
+   <label for="fname">Tu ombre:</label><br>
+   <input type="text" id="fname" name="fname"><br>
+   <label for="lname">E-mail:</label><br>
+   <input type="text" id="lname" name="lname">
+
+   <input type="submit" value="Enviar">
+   </form>
+</body>
+
+<footer>
+    <p>Everst Montero</p>
+    <p><a href="management@astro.com">management@astro.com</a></p>
+</footer>
+
+</html>
